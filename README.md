@@ -1,6 +1,8 @@
 ## Como criar bibliotecas para React Native e Expo e publicar no npm e yarn
 
+<img src="https://bancodev.s3-sa-east-1.amazonaws.com/exemplo.png">
 
+Neste tutorial vamos explicar como criar uma biblioteca para React Native e Expo, e como publicar ela no npm. Para exemplo, vamos criar uma biblioteca para facilitar a criação de links.
 
 ## Crie um repositório no GitHub
 O primeiro passo é criar um repositório no GitHub e clonar ele em alguma pasta no seu computador. Isso pode ser feito tanto via terminal ou pelo aplicativo GitHub desktop. Selecione a opção de inicializar com o README.
