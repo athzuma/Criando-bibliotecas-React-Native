@@ -1,0 +1,29 @@
+{
+  "name": "react-native-simplelink",
+  "version": "0.0.1",
+  "description": "Como criar uma biblioteca para React Native e Expo e publicar no npm",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athzuma/Criando-bibliotecas-React-Native.git"
+  },
+  "keywords": [
+    "Criar",
+    "biblioteca",
+    "react",
+    "native",
+    "expo",
+    "npm",
+    "simple",
+    "link"
+  ],
+  "author": "Athila Zuma <athzuma@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/athzuma/Criando-bibliotecas-React-Native/issues"
+  },
+  "homepage": "https://github.com/athzuma/Criando-bibliotecas-React-Native#readme"
+}
