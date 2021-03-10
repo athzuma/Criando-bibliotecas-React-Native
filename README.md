@@ -33,6 +33,7 @@ Agora vamos associar esse projeto com o seu usuário no npm, para isso é precis
 Quando solicitado informe seu nome de usuário, senha e e-mail.
 
 Para criar o package.json execute o comando:
+
 `$ npm init`
 
 Quando solicitado informe, nome do pacote, a versão, uma descrição, para Entry point informe src/index.js, para Test Command deixe em branco, informe o repositório criado do GitHub,  em Keywords informe tags de busca para o seu pacote, e por último informe a licença MIT. Se tudo estiver correto, informe `yes`.
@@ -76,7 +77,7 @@ Caso tenha digitado alguma informação errada, é só alterar direto nesse arqu
 ## Crie seu componente React Native
 Para esse exemplo vamos criar uma biblioteca para auxiliar na criação de links de forma mais rápida no React Native. Dentro da pasta do repositório criaremos a pasta `src`, e dentro dela os arquivos `index.js` e `simplelink.js`.
 
-simplelink.js
+simplelink.js:
 ```jsx
 import React from 'react';
 import { StyleSheet, TouchableOpacity, Linking, Text } from 'react-native';
@@ -125,13 +126,14 @@ const styles = StyleSheet.create({
 ```
 Aqui você pode criar seu componente da forma que preferir.
 
-index.js
+index.js:
 ```jsx
 export SimpleLink from './simplelink';
 ```
 
 ## Publicando sua biblioteca
 Faça um git commit e envie as modificações realizadas para o GitHub. Depois execute o comando abaixo para publicar a biblioteca no npm:
+
 `$ npm publish`
 
 Se tudo ocorreu corretamente, agora a sua biblioteca está publicada e disponível para todos!
@@ -151,30 +153,36 @@ Importe a biblioteca no seu projeto
 import { SimpleLink } from 'react-native-simplelink';
 ```
 
+
 Criando um link para uma página web de forma simples e rápida
 ```jsx
 <SimpleLink>http://google.com</SimpleLink>
 ```
+
 
 Criar um link para um endereço diferente do texto de exibição
 ```jsx
 <SimpleLink link="http://github.com">GitHub</SimpleLink>
 ```
 
+
 Criar um link sem formatação
 ```jsx
 <SimpleLink decorationNone>http://google.com</SimpleLink>
 ```
+
 
 Adicionar formatação adicional
 ```jsx
 <SimpleLink style={{ marginVertical: 20 }}>http://google.com</SimpleLink>
 ```
 
-Executar funções quando o link for clicado
+
+Executar uma função quando o link for clicado
 ```jsx
 <SimpleLink onPress={() => { console.log('Acessando o google') }}>http://google.com</SimpleLink>
 ```
+
 
 Abrir o link por uma função
 ```jsx

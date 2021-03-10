@@ -1,6 +1,6 @@
 {
   "name": "react-native-simplelink",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Como criar uma biblioteca para React Native e Expo e publicar no npm",
   "main": "src/index.js",
   "scripts": {
